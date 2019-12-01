@@ -1,0 +1,5 @@
+COMANDOS USADOS DURANTE O CURSO
+
+php artisan make:migration criar_tabela_series --create=series
+
+php artisan make:migration criar_tabela_episodios --create=episodios

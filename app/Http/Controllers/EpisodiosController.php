@@ -1,8 +1,9 @@
 <?php
 namespace App\Http\Controllers;
-use App\Serie;
+use App\Episodio;
 
-class SeriesController extends BaseController
+
+class EpisodiosController extends BaseController
 {
     public function __construct()
     {

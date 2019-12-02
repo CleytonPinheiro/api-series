@@ -1,7 +1,8 @@
 <?php
 namespace App;
 
-use Iluminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Model;
+
 class Episodio extends Model
 {
     public $timestamps = false;

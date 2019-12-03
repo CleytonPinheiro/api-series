@@ -11,4 +11,9 @@ class Episodio extends Model
     public function Serie(){
         return $this->belongsTo(Serie::class);
     }
+    /**Métodos Accessors e Mutators*/
+    public function getAssistidoAttribute($assistido):bool
+    {
+        return $assistido;
+    }
 }

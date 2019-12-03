@@ -9,7 +9,7 @@ use Illuminate\Http\Request;
 
     public function index()
     {
-        return $this->classe::all();
+        return $this->classe::paginate($request->per_page);
     }
 
     public function store(Request $request)

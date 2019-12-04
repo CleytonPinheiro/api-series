@@ -12,7 +12,6 @@ class Serie extends Model
   public function episodios(){
       return $this->hasMany(Epissodio::class);
     }
-
     public function getLinksAttribute($links): array
     {
         return

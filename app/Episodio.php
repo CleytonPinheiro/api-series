@@ -16,4 +16,13 @@ class Episodio extends Model
     {
         return $assistido;
     }
+
+    public function getLinkAttribute(): array
+    {
+        return [
+            'self'=>'/api/episodios/'. $this->id,
+            'serie'=>'/api/series'.$this->serie_id
+        ];
+
+    }
 }
